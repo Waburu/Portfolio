@@ -1,0 +1,58 @@
+
+<style>
+  .pg-wrap {
+    display: flex; align-items: center; justify-content: center;
+    padding: 2rem; background: #0d1117; border-radius: 12px; min-height: 480px;
+  }
+  .pg-card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 12px;
+    padding: 2.5rem 2rem; max-width: 400px; width: 100%; text-align: center;
+  }
+  .pg-avatar {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: #21262d; border: 2px solid #30363d;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; font-weight: 600; color: #58a6ff;
+    margin: 0 auto 1.25rem;
+  }
+  .pg-h1 { font-size: 20px; font-weight: 600; color: #e6edf3; margin-bottom: 0.3rem; }
+  .pg-sub { font-size: 13px; color: #8b949e; margin-bottom: 1.5rem; }
+  .pg-divider { border: none; border-top: 1px solid #21262d; margin: 0 0 1.5rem; }
+  .pg-stitle { font-size: 11px; font-weight: 600; color: #8b949e; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.75rem; }
+  .pg-steps { list-style: none; text-align: left; margin-bottom: 1.5rem; }
+  .pg-steps li { display: flex; align-items: flex-start; gap: 10px; padding: 0.4rem 0; font-size: 13px; color: #c9d1d9; }
+  .pg-num {
+    flex-shrink: 0; width: 20px; height: 20px; background: #21262d;
+    border: 1px solid #30363d; border-radius: 50%;
+    font-size: 11px; font-weight: 600; color: #58a6ff;
+    display: flex; align-items: center; justify-content: center; margin-top: 1px;
+  }
+  .pg-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: #238636; color: #fff; text-decoration: none;
+    font-size: 14px; font-weight: 600; padding: 9px 20px;
+    border-radius: 8px; margin-bottom: 1.25rem; cursor: pointer;
+    border: none;
+  }
+  .pg-note { font-size: 11px; color: #6e7681; }
+  .pg-note a { color: #58a6ff; }
+</style>
+<div class="pg-wrap">
+  <div class="pg-card">
+    <div class="pg-avatar">오</div>
+    <div class="pg-h1">오재석 포트폴리오</div>
+    <div class="pg-sub">포트폴리오 자료 모음</div>
+    <hr class="pg-divider">
+    <div class="pg-stitle">다운로드 방법</div>
+    <ul class="pg-steps">
+      <li><span class="pg-num">1</span><span>아래 초록색 버튼을 클릭합니다</span></li>
+      <li><span class="pg-num">2</span><span>다운로드가 자동으로 시작됩니다</span></li>
+      <li><span class="pg-num">3</span><span>저장된 ZIP 파일을 압축 해제하여 확인합니다</span></li>
+    </ul>
+    <button class="pg-btn">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M7.47 10.78a.75.75 0 0 0 1.06 0l3.75-3.75a.75.75 0 0 0-1.06-1.06L8.75 8.44V1.75a.75.75 0 0 0-1.5 0v6.69L4.78 5.97a.75.75 0 0 0-1.06 1.06l3.75 3.75Z"/><path d="M3.75 13a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z"/></svg>
+      포트폴리오 다운로드
+    </button>
+    <div class="pg-note">다운로드가 안 될 경우 <a href="#">GitHub 저장소</a>에서 직접 받으실 수 있습니다.</div>
+  </div>
+</div>
